@@ -10,7 +10,7 @@
 var express = require('express');
 var app = express();
 var useragent = require('express-useragent');
-const port = 8000;
+const port = process.env.PORT || 5000;
 
 /***************************************/
 /*******         Router          *******/
