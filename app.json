@@ -1,0 +1,6 @@
+{
+  "name": "whatsapp-direct-messaging-api",
+  "description": "A simple whatsapp direct messaging aou",
+  "repository": "https://github.com/amizz/Whatsapp-Direct-Messaging-API",
+  "keywords": ["node", "express", "static", "whatsapp", "api"]
+}
