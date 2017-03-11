@@ -8,6 +8,7 @@ $ git clone https://github.com/amizz/Whatsapp-Direct-Messaging-API.git
 $ yarn install
 $ yarn start
 ```
+> Use NPM if Yarn is not available on your system. Replace yarn to npm when executing the command.
 
 **Heroku**
 
