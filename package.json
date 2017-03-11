@@ -1,0 +1,19 @@
+{
+  "name": "ws_api",
+  "version": "0.1.0",
+  "author": {
+    "name": "Amirul Zharfan Zalid",
+    "email": "amirulzharfan96@gmail.com",
+    "url": "https://www.amirulzharfan.com"
+  },
+  "main": "app.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.15.2",
+    "express-useragent": "^1.0.7"
+  },
+  "devDependencies": {}
+}
