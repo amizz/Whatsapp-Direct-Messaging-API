@@ -15,9 +15,9 @@ $ yarn start
 http://<domain>/<phonenum>
 ```
 > Directly open whatsapp to respective phone number as long as the phone number is registered on whatsapp.
-> No message.
+> No message included.
 
 ```
 http://<domain>/<phonenum>/<message>
 ```
-> Directly open whatsapp to respective phone number and message will be automatically included.
+> Directly open whatsapp to respective phone number. Message is automatically included.
