@@ -1,5 +1,5 @@
 /**
- * Whatsapp Direct Message API
+ * Whatsapp Direct Messaging API
  * Author: Amirul Zharfan Zalid
  * Web: amirulzharfan.com
  */
@@ -21,7 +21,7 @@ const port = 8000;
  * Desciption: Main page
  */
 app.get('/', (req, res) => {
-    res.status(200).send('Hello to whatsapp direct message api');
+    res.status(200).send('Hello to whatsapp direct message api. Developed by Amirul Zharfan Zalid - Github@amizz');
 })
 
 /*
