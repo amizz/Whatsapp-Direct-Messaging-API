@@ -11,4 +11,13 @@ $ yarn start
 
 ##API
 
+```
 http://<domain>/<phonenum>
+```
+> Directly open whatsapp to respective phone number as long as the phone number is registered on whatsapp.
+> No message.
+
+```
+http://<domain>/<phonenum>/<message>
+```
+> Directly open whatsapp to respective phone number and message will be automatically included.
