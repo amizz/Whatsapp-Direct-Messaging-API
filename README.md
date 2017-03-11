@@ -4,10 +4,13 @@
 
 **Local**
 ```bash
-$ git clone https://github.com/amizz/Whatsapp-Direct-Messaging-API
+$ git clone https://github.com/amizz/Whatsapp-Direct-Messaging-API.git
 $ yarn install
 $ yarn start
 ```
+
+**Heroku**
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 ##API
 
