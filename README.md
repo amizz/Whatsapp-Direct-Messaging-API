@@ -1,5 +1,7 @@
 # Whatsapp Direct Messaging API
-This API allows user to create a hyperlink to their whatsapp account without the needs to save the number. It's more like 'Click to Whatsapp' thingy. Have fun!
+This API allows user to create a hyperlink to their whatsapp account without the needs to save the number. The API will open Whatsapp application using web or mobile based on the device. 
+
+It's more like 'Click to Whatsapp' thingy. Have fun!
 
 ## Installation
 
