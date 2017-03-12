@@ -30,14 +30,14 @@ http://<domain>/<phonenum>/<message>
 ```
 > Directly open whatsapp to respective phone number. Message is automatically included.
 
-##Note
-> Phone number must include the country code without '+' symbol.
-
 **Example**
 ```
 http://localhost:5000/60123456789
 http://localhost:5000/60123456789/Hello!
 ```
+
+##Note
+Phone number must include the country code without '+' symbol.
 
 ##Compatibility
 | OS               | Browser          | Status     |
