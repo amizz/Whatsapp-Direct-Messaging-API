@@ -62,6 +62,24 @@ app.get('/:phonenum/:message', (req, res) => {
     }
 })
 
+/*
+ * http://<domain>/whatsapp
+ * Desciption: Redirect url to respective whatsapp api interface using predefined phone number
+ */
+app.get('/whatsapp', (req, res) => {
+    var source = req.header('user-agent');
+    var ua = useragent.parse(source);
+    var phonenum = '0123456789';
+    
+    if (ua.isDesktop) {
+        res.status(308).redirect(`https://web.whatsapp.com/send?phone=+${phonenum}`);
+    } else if (ua.isMobile) {
+        res.status(308).redirect(`whatsapp://send?phone=+${phonenum}`);
+    } else {
+        res.status(400).json({status: "error"});
+    }
+})
+
 // Start server at <port>
 app.listen(port, (err) => {
     console.log(`Available at http://localhost:${port}`);
