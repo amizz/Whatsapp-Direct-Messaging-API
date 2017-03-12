@@ -21,7 +21,11 @@ const port = process.env.PORT || 5000;
  * Desciption: Main page
  */
 app.get('/', (req, res) => {
-    res.status(200).send('Hello to whatsapp direct message api. Developed by Amirul Zharfan Zalid - Github@amizz');
+    var data = {
+        status: "success",
+        message: "Hello to whatsapp direct message api. Developed by Amirul Zharfan Zalid - Github@amizz"
+    }
+    res.status(200).json(data);
 })
 
 /*
@@ -37,7 +41,7 @@ app.get('/:phonenum', (req, res) => {
     } else if (ua.isMobile) {
         res.status(308).redirect(`whatsapp://send?phone=+${req.params.phonenum}`);
     } else {
-        res.status(400).json('Error');
+        res.status(400).json({status: "error"});
     }
 })
 
@@ -54,7 +58,7 @@ app.get('/:phonenum/:message', (req, res) => {
     } else if (ua.isMobile) {
         res.status(308).redirect(`whatsapp://send?phone=+${req.params.phonenum}&text=${req.params.message}`);
     } else {
-        res.status(400).json('Error');
+        res.status(400).json({status: "error"});
     }
 })
 
