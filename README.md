@@ -49,7 +49,7 @@ http://localhost:5000/60123456789/Hello!
 - Node.js - v4.8.0+
 - Express - v4.15.2 
 
-> The project was tested using Node.js v6.10.0
+> This project was tested using Node.js v6.10.0
 
 ##License
 Whatsapp Direct Messaging API is licensed under The MIT License. Please refer to the license file for more information.
