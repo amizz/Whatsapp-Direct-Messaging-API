@@ -28,7 +28,7 @@ http://<domain>/<phonenum>/<message>
 > Directly open whatsapp app app to respective phone number. Message is automatically included.
 
 ##Note
-> Phone number must include country code without '+' symbol.
+> Phone number must include the country code without '+' symbol.
 
 **Example**
 ```
@@ -37,10 +37,10 @@ https://localhost:5000/60123456789/Hello!
 ```
 
 ##Compatibility
-| OS            | Browser       | Status  |
-| ------------- | ------------- | ------- |
-| Windows 10    | Google Chrome | Success |
-| Android 4.4.4 | Google Chrome | Success |
+| OS               | Browser          | Status     |
+| ---------------- | ---------------- | ---------- |
+| Windows 10       | Google Chrome    | Success    |
+| Android 4.4.4    | Google Chrome    | Success    |
 
 ##License
-Whatsapp Direct Messaging API is licensed under The MIT License. Please refer to license file for more information.
+Whatsapp Direct Messaging API is licensed under The MIT License. Please refer to the license file for more information.
