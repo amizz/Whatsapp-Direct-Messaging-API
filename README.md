@@ -1,7 +1,9 @@
 # Whatsapp Direct Messaging API
-This API allows user to create a hyperlink to their whatsapp account without the needs to save the number. The API will open Whatsapp application using web or mobile based on the device. 
+This API allows user to create a hyperlink to their whatsapp account without the needs to save the number.
 
-It's more like 'Click to Whatsapp' thingy. Have fun!
+Using it on the desktop will start a conversation using Whatsapp Web while on mobile Whatsapp will automatically open and start conversation.
+
+It's more like 'Click to Whatsapp' thingy or maybe 'Surf to Whatsapp'. Have fun!
 
 ## Installation
 
@@ -22,13 +24,13 @@ $ yarn start
 ```
 http://<domain>/<phonenum>
 ```
-> Directly open whatsapp app to respective phone number as long as the phone number is registered on whatsapp.
+> Directly open whatsapp to respective phone number as long as the phone number is registered on whatsapp.
 > No message included.
 
 ```
 http://<domain>/<phonenum>/<message>
 ```
-> Directly open whatsapp app app to respective phone number. Message is automatically included.
+> Directly open whatsapp to respective phone number. Message is automatically included.
 
 ##Note
 > Phone number must include the country code without '+' symbol.
