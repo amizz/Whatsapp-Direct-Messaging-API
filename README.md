@@ -8,7 +8,7 @@ It's more like 'Click to Whatsapp' thingy or maybe 'Surf to Whatsapp'. Have fun!
 ## Features
 1. You can use your own domain.
 2. No more saving phone number just to start a conversation.
-3. Directly open whatsapp application using web for desktop and app for mobile (the official api doesn't do this, Will ask user to click button).
+3. Directly open whatsapp application using web for desktop and app for mobile (the official api doesn't do this, will ask the user to click send button).
 
 ## Installation
 
