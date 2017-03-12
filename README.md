@@ -3,6 +3,13 @@ This API allows user to create a link to their whatsapp account without the need
 
 It's more like 'Click to Whatsapp' thingy or maybe 'Surf to Whatsapp'. Have fun!
 
+> You can also used the official one below.
+
+## Features
+1. You can use your own domain.
+2. No more saving phone number just to start a conversation.
+3. Directly open whatsapp application using web for desktop and app for mobile (the official api doesn't do this, Will ask user to click button).
+
 ## Installation
 
 ###Local
@@ -13,7 +20,7 @@ $ yarn start
 ```
 > Use NPM if Yarn is not available on your system. Replace yarn to npm when executing the command.
 
-###Heroku
+### Heroku
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
@@ -39,17 +46,23 @@ http://localhost:5000/60123456789/Hello!
 
 > Phone number must include the country code without '+' symbol.
 
-##Compatibility
+## Compatibility
 | OS               | Browser          | Status     |
 | ---------------- | ---------------- | ---------- |
 | Windows 10       | Google Chrome    | Success    |
 | Android 4.4.4    | Google Chrome    | Success    |
 
-##Specification
+## Specification
 - Node.js - v4.8.0+
 - Express - v4.15.2 
 
 > This project was tested using Node.js v6.10.0
 
-##License
+## Official Whatsapp 'Click to Chat' API
+```
+api.whatsapp.com/send?phone=<phonenum>text=<text>
+```
+This official API does't open Whatsapp automatically.
+
+## License
 Whatsapp Direct Messaging API is licensed under The MIT License. Please refer to the license file for more information.
