@@ -32,10 +32,17 @@ http://<domain>/<phonenum>
 > Directly open whatsapp to respective phone number as long as the phone number is registered on whatsapp.
 > No message included.
 
+
 ```
 http://<domain>/<phonenum>/<message>
 ```
 > Directly open whatsapp to respective phone number. Message is automatically included.
+
+
+```
+http://<domain>/whatsapp
+```
+> Directly open whatsapp and start conversation using predefined phone number. Go to app.js line 72 to change the phone number.
 
 
 **Example**
