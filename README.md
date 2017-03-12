@@ -30,6 +30,7 @@ http://<domain>/<phonenum>/<message>
 ```
 > Directly open whatsapp to respective phone number. Message is automatically included.
 
+
 **Example**
 ```
 http://localhost:5000/60123456789
