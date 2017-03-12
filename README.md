@@ -1,4 +1,5 @@
 # Whatsapp Direct Messaging API
+This API allows user to create a hyperlink to their whatsapp account without the needs to save the number. It's more like 'Click to Whatsapp' thingy. Have fun!
 
 ## Installation
 
@@ -32,8 +33,8 @@ http://<domain>/<phonenum>/<message>
 
 **Example**
 ```
-https://localhost:5000/60123456789
-https://localhost:5000/60123456789/Hello!
+http://localhost:5000/60123456789
+http://localhost:5000/60123456789/Hello!
 ```
 
 ##Compatibility
