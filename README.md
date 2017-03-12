@@ -36,14 +36,19 @@ http://localhost:5000/60123456789
 http://localhost:5000/60123456789/Hello!
 ```
 
-##Note
-Phone number must include the country code without '+' symbol.
+> Phone number must include the country code without '+' symbol.
 
 ##Compatibility
 | OS               | Browser          | Status     |
 | ---------------- | ---------------- | ---------- |
 | Windows 10       | Google Chrome    | Success    |
 | Android 4.4.4    | Google Chrome    | Success    |
+
+##Specification
+- Node.js - v4.8.0+
+- Express - v4.15.2 
+
+> The project was tested using Node.js v6.10.0
 
 ##License
 Whatsapp Direct Messaging API is licensed under The MIT License. Please refer to the license file for more information.
