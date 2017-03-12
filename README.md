@@ -3,7 +3,7 @@ This API allows user to create a link to their whatsapp account without the need
 
 It's more like 'Click to Whatsapp' thingy or maybe 'Surf to Whatsapp'. Have fun!
 
-> You can also used the official one below.
+> You can also use the official one below.
 
 ## Features
 1. You can use your own domain.
