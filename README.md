@@ -1,8 +1,8 @@
 # Whatsapp Direct Messaging API
 
-## How to use
+## Installation
 
-**Local**
+###Local
 ```bash
 $ git clone https://github.com/amizz/Whatsapp-Direct-Messaging-API.git
 $ yarn install
@@ -10,7 +10,7 @@ $ yarn start
 ```
 > Use NPM if Yarn is not available on your system. Replace yarn to npm when executing the command.
 
-**Heroku**
+###Heroku
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
@@ -43,4 +43,4 @@ https://localhost:5000/60123456789/Hello!
 | Android 4.4.4 | Google Chrome | Success |
 
 ##License
-MIT
+Whatsapp Direct Messaging API is licensed under The MIT License. Please refer to license file for more information.
