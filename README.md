@@ -12,7 +12,7 @@ It's more like 'Click to Whatsapp' thingy or maybe 'Surf to Whatsapp'. Have fun!
 
 ## Installation
 
-###Local
+### Local
 ```bash
 $ git clone https://github.com/amizz/Whatsapp-Direct-Messaging-API.git
 $ yarn install
@@ -24,7 +24,7 @@ $ yarn start
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
-##API
+## API
 
 ```
 http://<domain>/<phonenum>
