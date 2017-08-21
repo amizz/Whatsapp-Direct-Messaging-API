@@ -67,9 +67,8 @@ http://localhost:5000/60123456789/Hello!
 
 ## Official Whatsapp 'Click to Chat' API
 ```
-api.whatsapp.com/send?phone=<phonenum>text=<text>
+api.whatsapp.com/send?phone=<phonenum>&text=<text>
 ```
-This official API does't open Whatsapp automatically.
 
 ## License
 Whatsapp Direct Messaging API is licensed under The MIT License. Please refer to the license file for more information.
